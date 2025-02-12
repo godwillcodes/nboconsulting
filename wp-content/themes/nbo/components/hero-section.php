@@ -11,17 +11,19 @@
             }
             ?>
 
-            <h1 class="text-3xl sm:text-4xl mt-8 sm:mt-12 font-extrabold text-[#1ca56f] mb-1">
+            <div class="max-w-4xl">
+            <h1 class="text-[25px] lg:text-[30px] mt-8 sm:mt-12 font-extrabold text-[#1ca56f] mb-1">
                 Unlock the Power
             </h1>
-            <h1 class="text-3xl sm:text-4xl font-extrabold text-[#005282] mb-4">
-                of BPO Solutions<br> in Kenya
+            <h1 class="text-[25px] lg:text-[30px] font-extrabold text-[#005282] mb-4">
+                of BPO Solutions in Kenya
             </h1>
-            <p class="text-gray-600 mb-6 text-base sm:text-lg">
+            <p class="text-gray-600 mb-6 text-[16px]">
                 NBO Consulting Group is a Business Process Outsourcing (BPO) consulting firm headquartered in
                 Nairobi, Kenya.
             </p>
 
+            </div>
             <a href="#" class="bg-gradient-to-r from-[#18A06E] to-[#08604E] text-white px-6 py-3 rounded-lg font-semibold shadow-md 
               transition-all duration-300 hover:from-[#08604E] hover:to-[#18A06E]" data-aos="zoom-in"
                 data-aos-duration="1000">

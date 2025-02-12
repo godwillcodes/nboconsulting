@@ -8,5 +8,7 @@ get_template_part('components/cta');
 get_template_part('components/about-us');
 get_template_part('components/value');
 get_template_part('components/insights');
+get_template_part('components/team');
+get_template_part('components/contact-us');
 get_footer();
 ?>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-.site p, .site a, .site input{
+.site p, .site a, .site input, .site button{
     font-family: "Sora", serif !important;
 }
 

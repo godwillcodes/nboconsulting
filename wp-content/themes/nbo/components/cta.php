@@ -1,4 +1,4 @@
-<section class="max-w-7xl mx-auto bg-[#005282] my-10 p-4" data-aos="fade-up" data-aos-duration="300">
+<section class="max-w-7xl mx-auto bg-[#005282] my-10 p-4 boxed" data-aos="zoom-in" data-aos-duration="300">
   <div class="flex flex-col md:flex-row items-center gap-6">
     <!-- Left Image -->
     <div class="w-32 md:w-40 lg:w-48">
@@ -7,7 +7,7 @@
 
     <!-- Signup Form -->
     <div class="flex flex-col md:flex-1 text-center md:text-left">
-      <h2 class="text-white font-bold text-2xl">
+      <h2 class="text-white font-bold text-[25px] text-center">
         Start Scaling Your Operations with NBO Consulting Group
       </h2>
       <div class="mt-6 flex flex-col md:flex-row gap-8 lg:gap-4">
