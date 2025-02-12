@@ -176,3 +176,39 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+add_action('wp_ajax_submit_forminator_entry', 'submit_forminator_entry');
+add_action('wp_ajax_nopriv_submit_forminator_entry', 'submit_forminator_entry'); // Allow non-logged-in users
+
+function submit_forminator_entry() {
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+        wp_send_json_error(['message' => 'Invalid request'], 400);
+    }
+
+    // Define Forminator Form ID
+    $form_id = 20;
+
+    // Collect form data
+    $entry_meta = array(
+        array(
+            'name'  => 'name-1',  // Adjust based on Forminator field names
+            'value' => sanitize_text_field($_POST['first_name'])
+        ),
+        array(
+            'name'  => 'phone-1',
+            'value' => sanitize_text_field($_POST['last_name'])
+        ),
+        array(
+            'name'  => 'email-1',
+            'value' => sanitize_email($_POST['email'])
+        ),
+    );
+
+    // Submit to Forminator
+    $entry_id = Forminator_API::add_form_entry($form_id, $entry_meta);
+
+    if ($entry_id) {
+        wp_send_json_success(['message' => 'Form submitted successfully!']);
+    } else {
+        wp_send_json_error(['message' => 'Form submission failed.'], 500);
+    }
+}
