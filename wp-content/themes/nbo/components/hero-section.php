@@ -1,4 +1,4 @@
-<section class="bg-gray-50 py-10 boxed">
+<section class="bg-gray-50 py-10 ">
     <div class="max-w-7xl mx-auto px-8 lg:px-0 grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <!-- Left Content -->
         <div class="flex flex-col items-start" data-aos="fade-right" data-aos-duration="300">
