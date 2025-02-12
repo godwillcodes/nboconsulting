@@ -25,3 +25,7 @@ Use the command:
 ```sh
 npx @tailwindcss/cli -i ./css/input.css -o ./style.css --watch
 ```
+
+## Color Codes
+005282 - blue
+1ca56f - green

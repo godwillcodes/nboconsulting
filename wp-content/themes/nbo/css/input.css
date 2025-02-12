@@ -1,1 +1,24 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.site p, .site a{
+    font-family: "Sora", serif !important;
+}
+
+/* import font Conthrax from css/fonts */
+@font-face {
+    font-family: 'Conthrax';
+    src: url('./css/fonts/conthrax-sb.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.site h1, .site h2, .site h3, .site h4{
+    font-family: 'Conthrax';
+}
+
+[x-cloak] { display: none !important; }
+
+.boxed{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
