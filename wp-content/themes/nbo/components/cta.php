@@ -1,4 +1,4 @@
-<div class="max-w-7xl mx-auto bg-[#005282] my-10 p-4" data-aos="fade-up" data-aos-duration="300">
+<section class="max-w-7xl mx-auto bg-[#005282] my-10 p-4" data-aos="fade-up" data-aos-duration="300">
   <div class="flex flex-col md:flex-row items-center gap-6">
     <!-- Left Image -->
     <div class="w-32 md:w-40 lg:w-48">
@@ -14,10 +14,11 @@
         <input type="text" placeholder="First name" class="flex-1 px-4 py-3 rounded-lg text-gray-700 bg-white outline-none" />
         <input type="text" placeholder="Last name" class="flex-1 px-4 py-3 rounded-lg text-gray-700 bg-white outline-none" />
         <input type="email" placeholder="Email Address" class="flex-1 px-4 py-3 rounded-lg text-gray-700 bg-white outline-none" />
-        <button class="bg-[#1ca56f] text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition">
+        <button class="bg-gradient-to-r from-[#18A06E] to-[#08604E] text-white px-6 py-3 rounded-lg font-semibold shadow-md 
+              transition-all duration-300 hover:from-[#08604E] hover:to-[#18A06E]">
           SIGN UP
         </button>
       </div>
     </div>
   </div>
-</div>
+</section>

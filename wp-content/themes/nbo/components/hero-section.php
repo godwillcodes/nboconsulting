@@ -7,7 +7,7 @@
             $logo = wp_get_attachment_image_src($custom_logo_id, 'full');
 
             if ($logo) {
-                echo '<img class="h-20 w-20 sm:h-20 sm:w-20 md:h-40 md:w-40 lg:h-60 lg:w-60 object-contain ml-0 lg:-ml-8" src="' . esc_url($logo[0]) . '" alt="Theme Logo">';
+                echo '<img class="h-20 w-20 sm:h-20 sm:w-20 md:h-40 md:w-40 lg:h-48 lg:w-48 object-contain ml-0 lg:-ml-8" src="' . esc_url($logo[0]) . '" alt="Theme Logo">';
             }
             ?>
 
